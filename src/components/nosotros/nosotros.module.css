@@ -149,4 +149,7 @@
   .textBox {
     text-align: center;
   }
+  .h1Style {
+    margin: 20px 0px;
+  }
 }

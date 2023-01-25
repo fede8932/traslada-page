@@ -27,3 +27,8 @@
 .listItem:hover{
     color: #B5C8D3;
 }
+@media screen and (min-width: 350px) and (max-width: 580px) {
+  .container {
+    display: none;
+  }
+}

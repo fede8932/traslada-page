@@ -48,3 +48,23 @@
 .iconos {
   font-size: 50px;
 }
+
+@media screen and (min-width: 350px) and (max-width: 580px) {
+  .title {
+    font-size: 200%;
+  }
+  .contenido {
+    flex-direction: column;
+    width: 85%;
+  }
+  .imgContainer {
+    display: none;
+  }
+  .textContainer {
+    width: 100%;
+    margin: 0;
+  }
+  .iconos {
+    font-size: 40px;
+  }
+}
