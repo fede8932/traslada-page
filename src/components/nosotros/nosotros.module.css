@@ -4,10 +4,10 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
+  margin-top: 65px;
 }
 .title {
   font-size: 40px;
-  margin-top: 65px;
   color: #3e8ed0;
 }
 .historyContainer {
@@ -17,7 +17,6 @@
 }
 .textContainer {
   width: 50%;
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -109,4 +108,45 @@
 }
 .parrafo {
   line-height: 280%;
+}
+
+@media screen and (min-width: 350px) and (max-width: 580px) {
+  .container {
+    margin-top: 15px;
+  }
+  .title {
+    font-size: 200%;
+  }
+  .historyContainer {
+    flex-direction: column;
+  }
+  .textContainer {
+    width: 100%;
+    justify-content: center;
+  }
+  .imgContainer {
+    width: 100%;
+  }
+  .parrafo {
+    line-height: 150%;
+  }
+  .caja1 {
+    width: 135px;
+    height: 135px;
+  }
+  .caja2 {
+    width: 135px;
+    height: 135px;
+  }
+  .caja3 {
+    width: 135px;
+    height: 135px;
+  }
+  .caja4 {
+    width: 135px;
+    height: 135px;
+  }
+  .textBox {
+    text-align: center;
+  }
 }
