@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272a2b;
+  height: 50px;
+}
+p {
+  display: flex;
+  color: #4a4a4a;
+  font-weight: 500;
+  margin: 0;
+}
+span {
+  color: #3e8ed0;
+  font-weight: 900;
+  margin-left: 5px;
+}

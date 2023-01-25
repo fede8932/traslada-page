@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.title {
+  font-size: 40px;
+  margin-top: 65px;
+  color: #3e8ed0;
+}
+.historyContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.textContainer {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #1d262d;
+}
+.h1Style {
+  color: gray;
+}
+.imgContainer {
+  width: 44%;
+  color: #ffffff;
+  margin-top: 40px;
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.textBox {
+  font-size: 15px;
+  color: #ffffff;
+}
+.caja1 {
+  width: 185px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  background: rgb(232, 126, 22);
+  background: linear-gradient(
+    111deg,
+    rgba(232, 126, 22, 1) 0%,
+    rgba(240, 222, 20, 1) 100%
+  );
+  border-radius: 10%;
+  margin-top: 10px;
+}
+.caja2 {
+  width: 185px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  background: rgb(224, 56, 39);
+  background: linear-gradient(
+    111deg,
+    rgba(224, 56, 39, 1) 0%,
+    rgba(249, 164, 122, 1) 100%
+  );
+  border-radius: 10%;
+  margin-top: 10px;
+}
+.caja3 {
+  width: 185px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  background: rgb(94, 44, 237);
+  background: linear-gradient(
+    111deg,
+    rgba(94, 44, 237, 1) 0%,
+    rgba(164, 133, 253, 1) 100%
+  );
+  border-radius: 10%;
+  margin-top: 10px;
+}
+.caja4 {
+  width: 185px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  background: rgb(33, 113, 212);
+  background: linear-gradient(
+    74deg,
+    rgba(33, 113, 212, 1) 0%,
+    rgba(44, 196, 240, 1) 100%
+  );
+  border-radius: 10%;
+  margin-top: 10px;
+}
+.parrafo {
+  line-height: 280%;
+}
